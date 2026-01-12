@@ -79,8 +79,8 @@ export default function ServicesSection() {
   ];
 
   return (
-    <section className="py-16 bg-[var(--color-light)]">
-      <div className="max-w-6xl mx-auto px-4">
+    <section className="py-16 bg-[var(--color-light)] overflow-x-hidden">
+      <div className="max-w-6xl mx-auto px-4 overflow-x-hidden">
         <h2
           data-aos="fade-up"
           data-aos-delay="100"
@@ -108,7 +108,7 @@ export default function ServicesSection() {
                 shadow-lg
                 px-5 pt-7 pb-6
                 hover:bg-[var(--color-dark)] hover:text-[var(--color-light)]
-                min-h-[200px] w-full max-w-xs mx-auto
+                min-h-[200px] w-full max-w-full sm:max-w-xs mx-auto
                 cursor-pointer
                 hover:scale-105
                 overflow-visible
